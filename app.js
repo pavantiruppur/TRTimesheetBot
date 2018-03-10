@@ -13,7 +13,7 @@ var oauth2 = new jsforce.OAuth2({
   loginUrl : 'https://test.salesforce.com',
   clientId : '3MVG9Nc1qcZ7BbZ0huGJrAcA6yRz2eu52uqtw9l4G98cIwWoxgrHEn6uRuDufpXJ2d4e2wv30Ac.uNreHZmDv',
   clientSecret : '4077410849799319490',
-  redirectUri : 'http://localhost:3978/oauth/callback'
+  redirectUri : 'https://trtimesheet.azurewebsites.net/oauth/callback'
 });
 //
 // Get authorization url and redirect to it.
