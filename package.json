@@ -1,20 +1,20 @@
 {
-  "name": "formbot",
+  "name": "connectsalesforce",
   "version": "1.0.0",
-  "description": "",
+  "description": "testing salesforce oauth2 connection",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Pavan :P",
   "license": "ISC",
   "dependencies": {
-    "botbuilder": "^3.13.1",
-    "botbuilder-azure": "^3.0.4",
-    "restify": "^5.0.0"
-  },
-  "devDependencies": {
-    "request": "^2.81.0",
-    "zip-folder": "^1.0.0"
+    "body-parser": "^1.18.2",
+    "botbuilder": "^3.14.0",
+    "consolidate": "^0.15.0",
+    "express": "^3.21.2",
+    "jsforce": "^1.8.1",
+    "mustache": "^2.3.0",
+    "restify": "^6.3.4"
   }
 }
